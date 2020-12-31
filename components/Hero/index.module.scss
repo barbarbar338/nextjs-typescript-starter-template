@@ -1,0 +1,15 @@
+.wrapper {
+	@apply flex h-screen;
+	div {
+		@apply m-auto;
+		h1 {
+			@apply text-3xl;
+		}
+		p {
+			@apply text-gray-500;
+			code {
+				@apply text-indigo-500;
+			}
+		}
+	}
+}
